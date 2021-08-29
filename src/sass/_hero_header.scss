@@ -1,0 +1,46 @@
+.hero {
+  padding-top: 50px;
+  background-image: url(../images/Rectangle.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.menu-container {
+  display: flex;
+}
+
+.header-nav__list {
+  display: flex;
+}
+
+.header-nav__item {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.39;
+
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.header-nav__item:not(:last-child) {
+  margin-right: 63px;
+}
+
+.menu-container {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.contacts__tel {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.38;
+
+  text-align: right;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  border-bottom: 2px solid var(--accent-cl);
+}
